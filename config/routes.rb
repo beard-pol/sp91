@@ -1,4 +1,9 @@
 Sp91::Application.routes.draw do
+  #get "sp91/home"
+  #get "sp91/help"
+
+  root 'sp91#home'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
